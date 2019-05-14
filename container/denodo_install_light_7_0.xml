@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutomatedInstallation langpack="eng">
+<com.izforge.izpack.panels.HelloPanel id="UNKNOWN (com.izforge.izpack.panels.HelloPanel)"/>
+<com.izforge.izpack.panels.LicencePanel id="UNKNOWN (com.izforge.izpack.panels.LicencePanel)"/>
+<com.izforge.izpack.panels.UserInputPanel id="UNKNOWN (com.izforge.izpack.panels.UserInputPanel)">
+<userInput>
+<entry key="LICENSE_FILE" value="/opt/denodo/denodo-express-lic-7_0.lic"/>
+<entry key="SETUP_TYPE" value="express"/>
+<entry key="INSTALL_PATH" value="/denodo"/>
+</userInput>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.DenodoTreePacksPanel id="UNKNOWN (com.izforge.izpack.panels.DenodoTreePacksPanel)">
+<pack name="Common" selected="true"/>
+<pack name="VirtualDataPort" selected="true"/>
+<pack name="vdpadmintool" selected="true"/>
+<pack name="datacatalog" selected="true"/>
+<pack name="vdpserver" selected="true"/>
+<pack name="diagnosticmonitoringtool" selected="true"/>
+<pack name="ITPilot" selected="false"/>
+<pack name="specgen" selected="false"/>
+<pack name="serverpool" selected="false"/>
+<pack name="server" selected="false"/>
+<pack name="maint" selected="false"/>
+<pack name="itpilotadmin" selected="false"/>
+<pack name="client" selected="false"/>
+<pack name="Scheduler" selected="false"/>
+<pack name="scheduleradmin" selected="false"/>
+<pack name="schedulerserver" selected="false"/>
+<pack name="indexerserver" selected="false"/>
+</com.izforge.izpack.panels.DenodoTreePacksPanel>
+<com.izforge.izpack.panels.InstallValidatorPanel id="UNKNOWN (com.izforge.izpack.panels.InstallValidatorPanel)">
+<entry key="SELECTED_MODULES_VDP" value="VirtualDataPort,vdpadmintool,datacatalog,vdpserver,diagnosticmonitoringtool,"/>
+<entry key="SELECTED_MODULES_ITP" value=""/>
+<entry key="SELECTED_MODULES_ARA" value=""/>
+<entry key="SELECTED_MODULES_SCHED" value=""/>
+<entry key="SELECTED_MODULES_COMMON" value="Common,"/>
+</com.izforge.izpack.panels.InstallValidatorPanel>
+<com.izforge.izpack.panels.BrowserVersionPanel id="UNKNOWN (com.izforge.izpack.panels.BrowserVersionPanel)"/>
+<com.izforge.izpack.panels.LocaleChooserPanel id="UNKNOWN (com.izforge.izpack.panels.LocaleChooserPanel)">
+<entry key="SELECTED_LOCALE" value="fr_euro"/>
+</com.izforge.izpack.panels.LocaleChooserPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UNKNOWN (com.izforge.izpack.panels.UserInputPanel)">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UNKNOWN (com.izforge.izpack.panels.UserInputPanel)">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="external.programs.panel">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UNKNOWN (com.izforge.izpack.panels.UserInputPanel)">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UNKNOWN (com.izforge.izpack.panels.UserInputPanel)">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UNKNOWN (com.izforge.izpack.panels.UserInputPanel)">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UNKNOWN (com.izforge.izpack.panels.UserInputPanel)">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UNKNOWN (com.izforge.izpack.panels.UserInputPanel)">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.UserInputPanel id="UNKNOWN (com.izforge.izpack.panels.UserInputPanel)">
+<userInput/>
+</com.izforge.izpack.panels.UserInputPanel>
+<com.izforge.izpack.panels.SummaryPanel id="UNKNOWN (com.izforge.izpack.panels.SummaryPanel)"/>
+<com.izforge.izpack.panels.InstallPanel id="UNKNOWN (com.izforge.izpack.panels.InstallPanel)"/>
+<com.izforge.izpack.panels.ShortcutPanel id="UNKNOWN (com.izforge.izpack.panels.ShortcutPanel)"/>
+<com.izforge.izpack.panels.SimpleFinishPanel id="UNKNOWN (com.izforge.izpack.panels.SimpleFinishPanel)"/>
+</AutomatedInstallation>

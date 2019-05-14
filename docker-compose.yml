@@ -1,0 +1,28 @@
+version: '3'
+services:
+  denodo:
+    build:
+      context: ./container
+      args:
+        - "DENODO_INSTALL=${DENODO_INSTALL}"
+        - "DENODO_INSTALL_CONF=${DENODO_INSTALL_CONF}"
+        - "DENODO_LICENSE=${DENODO_LICENSE}"
+    container_name: denodock
+    ports:
+      #- "19090-19099:19090-19099"
+      #- "19090:19090"
+      #- "10091:10091"
+      - "9996-9999:9996-9999"
+      - "9090-9099:9090-9099"
+      - "8080:8080"
+      - "7998-8000:7998-8000"
+      - "80:80"
+    tty: true
+    network_mode: "bridge"
+    environment:
+      # for X11 Display select the right display depending of the Host OS
+      #- "DISPLAY=docker.for.win.localhost:0"
+      - "DISPLAY=${DISPLAY}"
+      - "DOMAINE_NAME=${DOMAINE_NAME}"
+    volumes:
+    - "${DENODO_HOME}:/denodo"

@@ -1,0 +1,11 @@
+.DS_Store
+denodo/*
+denodo_full/*
+denodo-*.zip
+ssl_crt/*
+
+*.log
+*.lic
+.idea/*
+*denodo-install-7.0-linux64.zip
+/.project
