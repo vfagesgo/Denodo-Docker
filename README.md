@@ -71,7 +71,7 @@ Prior to enter the container make to allow access from localhost to the X11 disp
     $xhost + 127.0.0.1
 Enter into the container
 
-    $docker exec -it denodo bash
+    $docker exec -it denodock bash
 # Start the Denodo Control Center
 
     $cd /denodo/bin
