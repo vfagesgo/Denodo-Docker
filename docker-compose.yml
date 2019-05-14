@@ -22,7 +22,7 @@ services:
     environment:
       # for X11 Display select the right display depending of the Host OS
       #- "DISPLAY=docker.for.win.localhost:0"
-      - "DISPLAY=${DISPLAY}"
+      - DISPLAY=docker.for.mac.localhost:0
       - "DOMAINE_NAME=${DOMAINE_NAME}"
     volumes:
     - "${DENODO_HOME}:/denodo"
