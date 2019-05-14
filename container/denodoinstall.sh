@@ -11,6 +11,9 @@ then
   cd "$DENODO_INSTALL_DIR"
   chmod +x installer_cli.sh
   ./installer_cli.sh install --autoinstaller /opt/denodo/denodo_install.xml
+
+  cd /denodo/bin
+  chmod +x *.sh
 fi
 
 if [ ! -e "/denodo/bin/stop.sh" ]
